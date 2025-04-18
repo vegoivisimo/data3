@@ -250,7 +250,7 @@ def update_input_container(selected_statistics):
 )
 
 ````
- # Quesiton 2.6
+ # Quesiton 2.5
 ```python
 
 recession_data = df_sales[df_sales['Recession'] == 1]
@@ -311,8 +311,8 @@ recession_data = df_sales[df_sales['Recession'] == 1]
     elif selected_statistics == 'Yearly Statistics' and selected_year is not None:
 
 ````
-![png](21.PNG)
- # Quesiton 2.5
+![png](25.PNG)
+ # Quesiton 2.6
 ```python
 
  yearly_data = df_sales[df_sales['Year'] == selected_year]
